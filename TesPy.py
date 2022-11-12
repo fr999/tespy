@@ -139,7 +139,7 @@ def showcontent(event):
     else:
         #_text.insert(END, 'SAUV: '+file_old, 'nok')
         _label_sauv.set(short(file_old))
-        _panel_sauv.config(bg='green')
+        _panel_sauv.config(bg='red')
          
     #_text.insert(END, '\n')
     
