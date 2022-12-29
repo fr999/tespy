@@ -91,6 +91,7 @@ def browseFiles():
     #filename = filedialog.askopenfilename(initialdir = "/", title = "Select a File", filetypes = (("Text files", "*.rpy"),("all files","*.*")))
     # Change label contents
     myList = os.listdir(filename)
+    myList.sort()
     
     #clear listbox
     _myListBox.delete(0,END)
